@@ -27,3 +27,9 @@ body {background:#CCC url(img/bg.gif) repeat-y fixed bottom center;color:#333;ma
 .left {float:left}
 .right {float:right}
 .clearer {clear:both}
+
+body {
+  color: #FFF;
+  background-color: #FD940A;
+  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+}
