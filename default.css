@@ -33,3 +33,10 @@ body {
   background-color: #FD940A;
   background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
 }
+
+ .text-overflow {
+    white-space: nowrap;       /* Перво-наперво, запретим перенос строк */
+    overflow: hidden;          /* Скрываем текст, который не помещается в блок */
+    text-overflow: ellipsis;   /* Уводим текст в многоточие */
+    display: block;            /* Элемент обязательно должен быть блочным */
+
