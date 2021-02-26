@@ -31,7 +31,7 @@ body {background:#CCC url(img/bg.gif) repeat-y fixed bottom center;color:#333;ma
 body {
   color: #FFF;
   background-color: #FD940A;
-  background-image: radial-gradient(circle, #F9A72B 0%, #1E90FF 70%, #FFFFFF 100%);
+  background-image: radial-gradient(circle, #F9A72B 0%, #FFFFFF 70%, #1E90FF 100%);
 }
 
  .text-overflow {
